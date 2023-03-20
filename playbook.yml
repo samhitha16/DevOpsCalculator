@@ -1,0 +1,9 @@
+- name: Pull and Run docker image
+  hosts: all
+  tasks:
+    - name: Pull samhitha16/calculator-app
+      docker_image:
+        name: samhitha16/calculator-app
+        source: pull
+      # vars:
+      #   - ansible_python_interpreter: /home/linuxbrew/.linuxbrew/bin/python3
