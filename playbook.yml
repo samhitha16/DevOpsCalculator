@@ -8,7 +8,7 @@
       # vars:
       #   - ansible_python_interpreter: /home/linuxbrew/.linuxbrew/bin/python3
 - name: Pull and Run docker image
-  hosts: localhost
+  hosts: all
   tasks:
 
     - name: Pull Image
