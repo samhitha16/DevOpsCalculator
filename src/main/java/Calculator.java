@@ -1,10 +1,10 @@
-package samhitha;
+// package samhitha;
 
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 // import java.util.*;
-public class Calculator {
+public class Calculator{
 
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     public static double sum(double value1, double value2) {
