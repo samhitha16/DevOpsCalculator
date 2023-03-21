@@ -7,41 +7,6 @@ import org.apache.logging.log4j.Logger;
 public class Calculator{
 
     private static final Logger logger = LogManager.getLogger(Calculator.class);
-    // public static double sum(double value1, double value2) {
-    //     double ans = value1 + value2;
-    //     logger.info("SUM " + "Input:"+value1 + "+" + value2 + " - " + ans);
-    //     return ans;
-    // }
-
-    // public static double subtract(double value1, double value2) {
-    //     double ans = value1 - value2;
-    //     logger.info("SUBTRACT " + "Input:"+value1 + "-" + value2 + " - " + ans);
-    //     return ans;
-    // }
-
-    // public static double divide(double value1, double value2) {
-    //     if(value2 == 0) {
-    //         logger.error("Divide By zero Error");
-    //         return -1;
-    //     }
-    //     double ans =  value1 / value2;
-    //     logger.info("DIVIDE " + "Input:"+value1 + "/" + value2 + " - " + ans);
-    //     return ans;
-    // }
-
-    // public static double multiply(double value1, double value2)
-    // {
-    //     double ans =  value1 * value2;
-    //     logger.info("MULTIPLY " + "Input:"+value1 + "*" + value2 + " - " + ans);
-    //     return ans;
-    // }
-
-    // public static double square(double value1)
-    // {
-    //     double ans = value1 * value1;
-    //     logger.info("SQUARE " + "Input:"+value1 + " - " + ans);
-    //     return ans;
-    // }
 
     public static double squareRoot(double value1)
     {
@@ -72,8 +37,4 @@ public class Calculator{
         logger.info("FACTORIAL " + "Input:"+value1 + " - " + ans);
         return ans;
     }
-
-    // private static void displayError() {
-    //     System.out.println("ERROR - Division by 0");
-    // }
 }
