@@ -1,0 +1,12 @@
+21/03/2023:21:12:18 915 [Calculator.java] [INFO] Calculator FACTORIAL Input:2.0 - 2.0
+21/03/2023:21:12:18 928 [Calculator.java] [INFO] Calculator FACTORIAL Input:3.0 - 6.0
+21/03/2023:21:12:18 929 [Calculator.java] [INFO] Calculator FACTORIAL Input:4.0 - 24.0
+21/03/2023:21:12:18 931 [Calculator.java] [ERROR] Calculator Divide By zero Error
+21/03/2023:21:12:18 949 [Calculator.java] [INFO] Calculator MULTIPLY Input:50.0*2.0 - 100.0
+21/03/2023:21:12:18 951 [Calculator.java] [INFO] Calculator SQUARE ROOT Input:4.0 - 2.0
+21/03/2023:21:12:18 954 [Calculator.java] [INFO] Calculator SUM Input:2.0+3.0 - 5.0
+21/03/2023:21:12:18 958 [Calculator.java] [INFO] Calculator SUBTRACT Input:15.0-5.0 - 10.0
+21/03/2023:21:12:18 970 [Calculator.java] [INFO] Calculator EXPONENT Input:100.0^3.0 - 1000000.0
+21/03/2023:21:12:18 975 [Calculator.java] [INFO] Calculator NATURAL LOGARITHM Input:9.0 - 2.1972245773362196
+21/03/2023:21:12:18 981 [Calculator.java] [INFO] Calculator DIVIDE Input:20.0/2.0 - 10.0
+21/03/2023:21:12:18 984 [Calculator.java] [INFO] Calculator SQUARE Input:2.0 - 4.0
