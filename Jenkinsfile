@@ -11,14 +11,14 @@ pipeline{
                 sh 'mvn clean install'
             }
         }
-        stage('Docker build') {
+        stage('Docker build Image') {
             steps{
                 script {
                     imageName=docker.build "samhitha16/calculator-app"
                 }
             }
         }
-        stage('Docker push img') {
+        stage('Docker push Image') {
             steps {
                 script{
                     docker.withRegistry('','dockerPassword'){
@@ -27,7 +27,7 @@ pipeline{
                 }    
             }
         }
-        stage('ansible pull img') {
+        stage('Ansible pull Image') {
             steps {
                 ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'playbook.yml', sudoUser: null
             }    
