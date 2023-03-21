@@ -1,2 +1,2 @@
-[local]
+[host_machine]
 localhost ansible_user=local
