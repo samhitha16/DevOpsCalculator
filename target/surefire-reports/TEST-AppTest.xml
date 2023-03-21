@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="AppTest" time="0.934" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="AppTest" time="2.283" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Ubuntu-0ubuntu120.04.1"/>
@@ -61,14 +61,8 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="AppTest" name="testing_factorial" time="0.882"/>
-  <testcase classname="AppTest" name="testing_divide_2" time="0"/>
-  <testcase classname="AppTest" name="testing_multiply" time="0.016"/>
-  <testcase classname="AppTest" name="testing_squareRoot" time="0.002"/>
-  <testcase classname="AppTest" name="testing_sum" time="0.005"/>
-  <testcase classname="AppTest" name="testing_subtract" time="0.012"/>
-  <testcase classname="AppTest" name="testing_Exponent" time="0.003"/>
-  <testcase classname="AppTest" name="testing_naturalLogarithm" time="0.008"/>
-  <testcase classname="AppTest" name="testing_divide" time="0.003"/>
-  <testcase classname="AppTest" name="testing_square" time="0.003"/>
+  <testcase classname="AppTest" name="testing_factorial" time="2.251"/>
+  <testcase classname="AppTest" name="testing_squareRoot" time="0.001"/>
+  <testcase classname="AppTest" name="testing_Exponent" time="0.029"/>
+  <testcase classname="AppTest" name="testing_naturalLogarithm" time="0.002"/>
 </testsuite>
