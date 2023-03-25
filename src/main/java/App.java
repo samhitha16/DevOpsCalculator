@@ -12,7 +12,7 @@ public class App {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Choose your function: \n"
-                + "\t1. Square Root\n"
+                + "\t1. Square Root of number\n"
                 + "\t2. Factorial\n"
                 + "\t3. Natural Log\n"
                 + "\t4. Exponent\n");
