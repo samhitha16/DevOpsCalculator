@@ -11,7 +11,7 @@ public class App {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Choose your function:\n"
+        System.out.println("Choose your function: \n"
                 + "\t1. Square Root\n"
                 + "\t2. Factorial\n"
                 + "\t3. Natural Log\n"
